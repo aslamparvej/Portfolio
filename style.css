@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Russo One', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    color: #000057;
+    font-size: 3rem;
+}
