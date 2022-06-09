@@ -17,27 +17,26 @@
     <link rel="stylesheet" href="style.css" />
     <title>Aslam Parvej</title>
   </head>
+
   <body>
     <header>
       <h1>Aslam Parvej</h1>
-      <nav>
+      <nav id="navbar">
         <ul>
           <li><a href="#">Resume</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Project</a></li>
-        </ul>
-        <ul>
+          <li><a href="#project">Project</a></li>
           <li><a href="#">Blog</a></li>
+          <li><a href="#">Photos</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
       <div id="left-container">
-        <div>
+        <div class="left-content">
           <h2>
-            Hey, I'm a
-            <span>Full Stack Web Developer</span>
+            Hey, I'm a <br />
+            <span>Full Stack Developer</span><br />
             and
             <span>Photographer</span>
           </h2>
@@ -45,38 +44,51 @@
         </div>
       </div>
       <div id="right-container">
-        <img src="./images/profile.jpg" alt="profile pic" width="400px" />
+        <div id="image-container">
+          <img src="./images/profile.jpg" alt="profile pic" />
+        </div>
       </div>
     </main>
+
     <section id="project">
-      <div class="project-container">
-        <h3>Project Title</h3>
-        <img src="./images/project01.jpg" alt="project image" width="200px" />
-        <p><a href="#">Project Link</a></p>
-      </div>
-      <div class="project-container">
-        <h3>Project Title</h3>
-        <img src="./images/project01.jpg" alt="project image" width="200px" />
-        <p><a href="#">Project Link</a></p>
-      </div>
-      <div class="project-container">
-        <h3>Project Title</h3>
-        <img src="./images/project01.jpg" alt="project image" width="200px" />
-        <p><a href="#">Project Link</a></p>
-      </div>
-      <div class="project-container">
-        <h3>Project Title</h3>
-        <img src="./images/project01.jpg" alt="project image" width="200px" />
-        <p><a href="#">Project Link</a></p>
+      <h2>My Projects</h2>
+      <div id="project-section">
+        <!-- first project -->
+        <div class="project-container">
+          <h3>Online Meals</h3>
+          <img src="./images/project01.jpg" alt="project image" />
+          <p><a href="https://bejewelled-platypus-af98e7.netlify.app/" target="_blank">View Project</a></p>
+        </div>
+
+        <!-- second project -->
+        <div class="project-container">
+          <h3>Travels Goals</h3>
+          <img src="./images/travel-goals.jpg" alt="project image" />
+          <p><a href="https://fanciful-torrone-2b5d18.netlify.app/" target="_blank">View Project</a></p>
+        </div>
+
+        <!-- third project -->
+        <div class="project-container">
+          <h3>Event Manager</h3>
+          <img src="./images/event-manager.jpg" alt="project image"  />
+          <p><a href="https://aslamparvej.github.io/Event-Manager/" target="_blank">View Project</a></p>
+        </div>
+
+        <!-- fourth project -->
+        <div class="project-container">
+          <h3>Project Title</h3>
+          <img src="./images/project01.jpg" alt="project image"  />
+          <p><a href="#">View Project</a></p>
+        </div>
       </div>
     </section>
+
     <footer>
-      <div social-media-icon>
+      <div id="social-media-icon">
         <a href=""
           ><img
             src="./images/facebook-brands.svg"
             alt="facebook-brands"
-            width="100px"
             class="icon"
         /></a>
 
@@ -84,7 +96,6 @@
           ><img
             src="./images/instagram-brands.svg"
             alt="instagram-brands"
-            width="100px"
             class="icon"
         /></a>
 
@@ -92,7 +103,6 @@
           <img
             src="./images/twitter-brands.svg"
             alt="twitter-brands"
-            width="100px"
             class="icon"
           />
         </a>
@@ -100,7 +110,6 @@
           <img
             src="./images/envelope-solid.svg"
             alt="envelope-solid"
-            width="100px"
             class="icon"
           />
         </a>
@@ -108,12 +117,11 @@
           <img
             src="./images/github-brands.svg"
             alt="github-brands"
-            width="100px"
             class="icon"
           />
         </a>
       </div>
-      Copyright&copy;2022 Aslam Parvej
+      <h3>Copyright&copy;2022 Aslam Parvej</h3>
     </footer>
   </body>
   <script src="./script.js"></script>
