@@ -4,17 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="shared.css" />
     <title>Aslam Parvej</title>
   </head>
 
@@ -23,10 +20,10 @@
       <h1>Aslam Parvej</h1>
       <nav id="navbar">
         <ul>
-          <li><a href="#">Resume</a></li>
+          <li><a href="./resume/Resume.pdf" target="_blank">Resume</a></li>
           <li><a href="#project">Project</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Photos</a></li>
+          <!-- <li><a href="./Blog/Blog.html">Blog</a></li>
+          <li><a href="./Photo/Photo.html">Photos</a></li> -->
         </ul>
       </nav>
     </header>
@@ -40,12 +37,12 @@
             and
             <span>Photographer</span>
           </h2>
-          <button><a href="#">Download Resume</a></button>
+          <button><a href="./resume/Resume.pdf" target="_blank">Download Resume</a></button>
         </div>
       </div>
       <div id="right-container">
         <div id="image-container">
-          <img src="./images/profile.jpg" alt="profile pic" />
+          <img src="images/profile/profile.jpg" alt="profile pic" />
         </div>
       </div>
     </main>
@@ -53,67 +50,110 @@
     <section id="project">
       <h2>My Projects</h2>
       <div id="project-section">
-        <!-- first project -->
+        <!-- Crypto Bazer project -->
+        <div class="project-container">
+          <h3>Crypto Bazer</h3>
+          <img src="./images/projects/crypto-bazar.jpg" alt="crypto-bazar" />
+          <p>
+            <a
+              href="https://gleeful-froyo-dbdefd.netlify.app/"
+              target="_blank"
+              >View Project</a
+            >
+          </p>
+        </div>
+
+        <!-- Tic Tac Toe game -->
+        <div class="project-container">
+          <h3>Tic Tac Toe Game</h3>
+          <img src="./images/projects/tic-tac-toe-game.jpg" alt="tic-tac-toe-game" />
+          <p>
+            <a
+              href="https://aslamparvej.github.io/Tic-Tac-Toe-Game/"
+              target="_blank"
+              >View Project</a
+            >
+          </p>
+        </div>
+
+        <!-- Online Meals Project -->
         <div class="project-container">
           <h3>Online Meals</h3>
-          <img src="./images/project01.jpg" alt="project image" />
-          <p><a href="https://bejewelled-platypus-af98e7.netlify.app/" target="_blank">View Project</a></p>
+          <img src="./images/projects/project01.jpg" alt="project image" />
+          <p>
+            <a
+              href="https://bejewelled-platypus-af98e7.netlify.app/"
+              target="_blank"
+              >View Project</a
+            >
+          </p>
         </div>
 
-        <!-- second project -->
+        <!-- travel-goals -->
         <div class="project-container">
           <h3>Travels Goals</h3>
-          <img src="./images/travel-goals.jpg" alt="project image" />
-          <p><a href="https://fanciful-torrone-2b5d18.netlify.app/" target="_blank">View Project</a></p>
+          <img src="./images/projects/travel-goals.jpg" alt="travel-goals" />
+          <p>
+            <a
+              href="https://fanciful-torrone-2b5d18.netlify.app/"
+              target="_blank"
+              >View Project</a
+            >
+          </p>
         </div>
 
-        <!-- third project -->
-        <div class="project-container">
+        <!-- <div class="project-container">
           <h3>Event Manager</h3>
-          <img src="./images/event-manager.jpg" alt="project image"  />
-          <p><a href="https://aslamparvej.github.io/Event-Manager/" target="_blank">View Project</a></p>
-        </div>
+          <img src="./images/event-manager.jpg" alt="project image" />
+          <p>
+            <a
+              href="https://aslamparvej.github.io/Event-Manager/"
+              target="_blank"
+              >View Project</a
+            >
+          </p>
+        </div> -->
 
         <!-- fourth project -->
-        <div class="project-container">
+        <!-- <div class="project-container">
           <h3>Project Title</h3>
-          <img src="./images/project01.jpg" alt="project image"  />
+          <img src="./images/project01.jpg" alt="project image" />
           <p><a href="#">View Project</a></p>
-        </div>
+        </div> -->
       </div>
     </section>
 
     <footer>
       <div id="social-media-icon">
-        <a href=""
+        <!-- <a href=""
           ><img
             src="./images/facebook-brands.svg"
             alt="facebook-brands"
             class="icon"
-        /></a>
+        /></a> -->
 
-        <a href=""
+        <a href="https://www.instagram.com/aslam._parvej/" target="_blank"
           ><img
             src="./images/instagram-brands.svg"
             alt="instagram-brands"
             class="icon"
         /></a>
 
-        <a href="">
+        <a href="https://twitter.com/Aslamparvej10" target="_blank">
           <img
             src="./images/twitter-brands.svg"
             alt="twitter-brands"
             class="icon"
           />
         </a>
-        <a href="">
+        <!-- <a href="" target="_blank">
           <img
             src="./images/envelope-solid.svg"
             alt="envelope-solid"
             class="icon"
           />
-        </a>
-        <a href="">
+        </a> -->
+        <a href="https://github.com/aslamparvej" target="_blank">
           <img
             src="./images/github-brands.svg"
             alt="github-brands"
