@@ -10,14 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="./styles/shared.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Aslam Parvej</title>
   </head>
 
   <body>
     <header>
-      <h1>Aslam Parvej</h1>
+      <h1><a href="./index.html">Aslam Parvej</a></h1>
       <nav id="navbar">
         <ul>
           <li><a href="./resume/Resume.pdf" target="_blank">Resume</a></li>
@@ -35,15 +35,14 @@
             Hey, I'm a <br />
             <span>Full Stack Developer</span><br />
             and
-            <span>Photographer</span>
+            <span>Photographer</span>.
           </h2>
-          <button><a href="./resume/Resume.pdf" target="_blank">Download Resume</a></button>
-        </div>
+            <a href="./resume/Resume.pdf" target="_blank">
+              <button class="btn"> Download Resume</button>
+             </a>
       </div>
-      <div id="right-container">
-        <div id="image-container">
-          <img src="images/profile/profile.jpg" alt="profile pic" />
-        </div>
+      <div id="image-container">
+        <img src="./images/profile/Programming-pana.png" alt="profile pic" />
       </div>
     </main>
 
@@ -55,10 +54,12 @@
           <h3>Crypto Bazer</h3>
           <img src="./images/projects/crypto-bazar.jpg" alt="crypto-bazar" />
           <p>
-            <a
-              href="https://gleeful-froyo-dbdefd.netlify.app/"
-              target="_blank"
-              >View Project</a
+            <a href="https://gleeful-froyo-dbdefd.netlify.app/" target="_blank"
+              >
+             <button class="btn">
+              View Project
+             </button>
+              </a
             >
           </p>
         </div>
@@ -66,12 +67,17 @@
         <!-- Tic Tac Toe game -->
         <div class="project-container">
           <h3>Tic Tac Toe Game</h3>
-          <img src="./images/projects/tic-tac-toe-game.jpg" alt="tic-tac-toe-game" />
+          <img
+            src="./images/projects/tic-tac-toe-game.jpg"
+            alt="tic-tac-toe-game"
+          />
           <p>
             <a
               href="https://aslamparvej.github.io/Tic-Tac-Toe-Game/"
               target="_blank"
-              >View Project</a
+              ><button class="btn">
+                View Project
+               </button></a
             >
           </p>
         </div>
@@ -84,7 +90,9 @@
             <a
               href="https://bejewelled-platypus-af98e7.netlify.app/"
               target="_blank"
-              >View Project</a
+              ><button class="btn">
+                View Project
+               </button></a
             >
           </p>
         </div>
@@ -125,37 +133,23 @@
 
     <footer>
       <div id="social-media-icon">
-        <!-- <a href=""
-          ><img
-            src="./images/facebook-brands.svg"
-            alt="facebook-brands"
-            class="icon"
-        /></a> -->
-
         <a href="https://www.instagram.com/aslam._parvej/" target="_blank"
           ><img
-            src="./images/instagram-brands.svg"
+            src="./images/icons/instagram-brands.svg"
             alt="instagram-brands"
             class="icon"
         /></a>
 
         <a href="https://twitter.com/Aslamparvej10" target="_blank">
           <img
-            src="./images/twitter-brands.svg"
+            src="./images/icons/twitter-brands.svg"
             alt="twitter-brands"
             class="icon"
           />
         </a>
-        <!-- <a href="" target="_blank">
-          <img
-            src="./images/envelope-solid.svg"
-            alt="envelope-solid"
-            class="icon"
-          />
-        </a> -->
         <a href="https://github.com/aslamparvej" target="_blank">
           <img
-            src="./images/github-brands.svg"
+            src="./images/icons/github-brands.svg"
             alt="github-brands"
             class="icon"
           />
