@@ -2,9 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  --primary-color: #182C61;
+  /* --primary-color: #182C61; */
   /* --secondary-color: #fff5f5; */
-  --secondary-color: #F8EFBA;
+  /* --secondary-color: #F8EFBA; */
+  --primary-color: #1B2430;
+  --secondary-color: #ffffff;
+  --bg-color: #51557E;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -39,9 +42,9 @@ footer {
     padding: 1rem 0;
     text-align: center;
 }
-footer #social-media-icon{
+/* footer #social-media-icon{
    
-}
+} */
 footer #social-media-icon a{
     padding: 0 0.5rem;
 }
